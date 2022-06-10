@@ -6,7 +6,7 @@
 /*   By: framos-p <framos-p@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 10:48:08 by framos-p          #+#    #+#             */
-/*   Updated: 2022/05/21 13:17:23 by framos-p         ###   ########.fr       */
+/*   Updated: 2022/06/10 10:29:00 by framos-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	ft_atoi(const char *str)
 				*str == '\v' || *str == '\f' || *str == '\r'))
 		str++;
 	if (*str == '-')
-		signo = -1;
+	signo = -1;
 	if (*str == '-' || *str == '+')
 		++str;
 	while (*str && *str >= '0' && *str <= '9')

@@ -6,7 +6,7 @@
 /*   By: framos-p <framos-p@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/26 16:01:03 by framos-p          #+#    #+#             */
-/*   Updated: 2022/05/26 16:52:07 by framos-p         ###   ########.fr       */
+/*   Updated: 2022/05/28 17:09:43 by framos-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 			i++;
 	j = ft_strlen(s1);
 	while (s1[i] && ft_strchr(set, s1[j - 1]))
-	   		j--;
+			j--;
 	new = ft_substr(s1, i, j - i);
 	return (new);
 }

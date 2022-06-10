@@ -6,12 +6,10 @@
 /*   By: framos-p <framos-p@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/13 10:19:44 by framos-p          #+#    #+#             */
-/*   Updated: 2022/05/23 16:01:06 by framos-p         ###   ########.fr       */
+/*   Updated: 2022/06/10 09:52:41 by framos-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
-//ft_memset(s, 0, n);
 
 void	ft_bzero(void *s, size_t n)
 {
